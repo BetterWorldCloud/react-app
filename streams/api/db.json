@@ -1,0 +1,31 @@
+{
+  "streams": [
+    {
+      "title": "my stream",
+      "description": "great stream",
+      "id": 7
+    },
+    {
+      "title": "my stream",
+      "description": "great stream",
+      "id": 8
+    },
+    {
+      "title": "stream",
+      "description": "test stream again",
+      "id": 9
+    },
+    {
+      "title": "Different User Stream",
+      "description": "My New stream 12234",
+      "userId": "110465465253588872138",
+      "id": 13
+    },
+    {
+      "title": "New Stream",
+      "description": "New Stream 234",
+      "userId": "105751042135889260292",
+      "id": 14
+    }
+  ]
+}
