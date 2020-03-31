@@ -1,0 +1,41 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;;
+    right: 10px;
+}
+
+/* ..find an element that has a class name: season-display and Winter
+and find a child element of it that is 'i' an icon, and set the color*/
+.season-display.Winter i {
+    color: snow;
+}
+
+.season-display.Summer i {
+    color: red;
+}
+
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Winter {
+    background-color: paleturquoise;
+}
+
+.Summer {
+    background-color: orange;
+}
+
+.Borders {
+    border: red;
+}

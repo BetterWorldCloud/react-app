@@ -8,8 +8,28 @@ import ReactDOM from 'react-dom';
 // };
 
 // ES2015 format
+function getButtonText() {
+	return "Click On Me..!";
+}
+
 const App = () => {
-    return <div> Hi there</div>;
+	// const buttonText = 'Click Me!';
+	const nameText = "Please enter your name:";
+    return (
+	<div>
+		<div>Hi there!</div>
+		<label className="label" htmlFor="name">
+			{nameText}
+		</label>
+
+		<input id="name" type="text"/>
+
+		<button style={{backgroundColor: 'blue', color: 'white'}}> 
+		{getButtonText()}
+		</button>
+		</div>
+	);
+
 };
 
 // Take the react component and show it on the screen
